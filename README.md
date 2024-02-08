@@ -7,11 +7,6 @@ TurboThrills is a car marketplace website where users can buy and sell new, used
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -19,20 +14,15 @@ TurboThrills is a car marketplace website where users can buy and sell new, used
 - Buy and sell cars securely using bank account transactions.
 - End-to-end encryption for sensitive data.
 - Responsive and user-friendly interface.
-- ...
 
 ## Technologies Used
 
 - HTML, CSS, JavaScript
 - Bootstrap
-- React.js (with react-router-dom)
+- React.js
 - Node.js
 - Express.js
-- MongoDB (using Mongoose)
-- Axios
-- Cors
-- Multer
-- ...
+- MongoDB
 
 ## Getting Started
 
@@ -40,11 +30,5 @@ TurboThrills is a car marketplace website where users can buy and sell new, used
 
 - Node.js and npm installed
 - MongoDB installed and running
-- ...
 
-### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/TurboThrills.git
