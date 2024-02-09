@@ -28,7 +28,7 @@ TurboThrills is a car marketplace website where users can buy and sell new, used
 
 ### Prerequisites
 
-- Node.js and npm installed
+- Node.js, npm, npx installed
 - MongoDB installed and running
 
 
