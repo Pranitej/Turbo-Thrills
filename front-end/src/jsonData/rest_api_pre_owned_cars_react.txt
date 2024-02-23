@@ -1,0 +1,249 @@
+Admin Login
+-=================
+
+URL: https://www.sigmaelectronics.xyz/adminLogin
+Method: POST
+post data:
+{
+    "userName" : "admin",
+    "password" : "12345"
+}
+
+
+CUSTOMERS
+==============================
+
+URL: https://www.sigmaelectronics.xyz/addCustomer
+Method: POST
+post data:
+{
+    "firstName"  : "ABC",
+
+    "lastName" : "XYZ",
+
+    "contactAddress" : "Warangal",
+
+    "city" : "Warangal",
+
+    "state" : "Telangana",
+
+    zipcode : "80930",
+
+    contactMobile : "209798237",
+
+    emailId : "abc@gmail.com",
+
+    password : "123456",
+
+}
+
+
+URL: https://www.sigmaelectronics.xyz/getallCustomers
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/getCustomer/{customerId}
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/deleteCustomer/{customerId}
+Method: DELETE
+
+URL: https://www.sigmaelectronics.xyz/updateCustomer/{customerId}
+Method: PUT
+
+CARS
+========================
+
+URL: https://www.sigmaelectronics.xyz/addCar
+Method: POST
+post data:
+{
+   postDate : "2022-10-23",
+
+    carType : "new",
+
+    company: "Maruthi",
+
+    modelName: "Dezire",
+
+    yearModel : 2022,
+
+    fuelType : "Petrol",
+
+    carDescription : "Good Car",
+
+    cost : 100000.00,
+
+    carImage1 : "car1.jpg",
+
+    available : "yes",
+    
+	customerId : 101
+
+}
+
+
+URL: https://www.sigmaelectronics.xyz/getallCars
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/getCar/{carId}
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/deleteCar/{carId}
+Method: DELETE
+
+URL: https://www.sigmaelectronics.xyz/updateCar/{carId}
+Method: PUT
+post data:
+{
+"carId" : 101
+     "firstName"  : "ABC",
+
+    "lastName" : "XYZ",
+
+    "contactAddress" : "Warangal",
+
+    "city" : "Warangal",
+
+    "state" : "Telangana",
+
+    zipcode : "80930",
+
+    contactMobile : "209798237",
+
+    emailId : "abc@gmail.com",
+
+    password : "123456",
+
+}
+
+CAR  SALES
+========================
+
+URL: https://www.sigmaelectronics.xyz/addCarSale
+Method: POST
+post data:
+{
+    transactionDate : "2022-10-23",
+
+    cost : 100000.00,
+
+    cardNumber : "2378973",
+    
+    carId : 101,
+    customerId : 101
+}
+
+
+URL: https://www.sigmaelectronics.xyz/getallCarSales
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/getCarSale/{saleId}
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/deleteSaleCar/{saleId}
+Method: DELETE
+
+URL: https://www.sigmaelectronics.xyz/updateSaleCar/{carId}
+Method: PUT
+
+post data:
+{
+   "saleId" : 1
+    "transactionDate" : "2022-10-23",
+
+    "cost" : 100000.00,
+
+    "cardNumber" : "2378973",
+    
+    "carId" : 101,
+    "customerId" : 101
+}
+
+
+ADD TO CART
+========================
+
+URL: https://www.sigmaelectronics.xyz/addToCart
+Method: POST
+post data:
+{
+    
+    "customerId" : 101,
+    "carId" : 101
+    
+}
+
+
+URL: https://www.sigmaelectronics.xyz/getallCarts
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/getCart/{cartId}
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/deleteCart/{cartId}
+Method: DELETE
+
+URL: https://www.sigmaelectronics.xyz/updateCart/{carId}
+Method: PUT
+
+post data:
+{
+    "cartID" : 1,
+	"customerId" : 101,
+    "carId" : 101
+}
+
+
+
+
+REVIEWS
+========================
+
+URL: https://www.sigmaelectronics.xyz/addReview
+Method: POST
+post data:
+{
+    
+    "feedbackDate" : "2022-10-23";
+
+     "review" : "GOOD CAR";
+
+    "rating" : 5
+
+  "customerId" : 101,
+    "carId" : 101
+    
+}
+
+
+URL: https://www.sigmaelectronics.xyz/getallReviews
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/getReview/{feedbackId}
+Method: GET
+
+
+URL: https://www.sigmaelectronics.xyz/deleteReview/{feedbackId}
+Method: DELETE
+
+URL: https://www.sigmaelectronics.xyz/updateReview/{feedbackId}
+Method: PUT
+
+post data:
+{
+    "feedbackID": 1,
+    "feedbackDate" : "2022-10-23";
+     "review" : "GOOD CAR";
+    "rating" : 5
+	"customerId" : 101,
+    "carId" : 101
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "q": "1. Which features should you highlight when selling your car ?",
+    "a": "A. Only the exterior color.",
+    "b": "B. The high performance on rough terrains.",
+    "c": "C. Mileage, maintenance records, and unique features.",
+    "d": "D. Only the brand name.",
+    "ans": "c"
+  },
+  {
+    "q": "2. What is a VIN, and where can it typically be found on a vehicle ?",
+    "a": "A. It's a Vehicle Insurance Number found on insurance papers.",
+    "b": "B. It's a Vehicle Identification Number found on the dashboard or driver's side door jamb.",
+    "c": "C. It's a Vehicle Interior Number found inside the trunk.",
+    "d": "D. It's a Vehicle Invoice Number found on the sale invoice.",
+    "ans": "b"
+  },
+  {
+    "q": "3. What paperwork is required to sell your car legally ?",
+    "a": "A. Just a verbal agreement.",
+    "b": "B. Only a handwritten receipt.",
+    "c": "C. Bill of sale, title, and maintenance records.",
+    "d": "D. The car's original brochure.",
+    "ans": "c"
+  },
+  {
+    "q": "4. Which resources are useful for pricing your car competitively ?",
+    "a": "A. Astrology and horoscopes.",
+    "b": "B. Car dealership quotes only.",
+    "c": "C. Online valuation tools and comparison with similar listings.",
+    "d": "D. A random guess.",
+    "ans": "c"
+  },
+  {
+    "q": "5. How should you handle price negotiations with a buyer ?",
+    "a": "A. Accept the first offer immediately.",
+    "b": "B. Negotiate firmly based on fair market value and the condition of your car.",
+    "c": "C. Increase the price during negotiation.",
+    "d": "D. Do not allow negotiations.",
+    "ans": "b"
+  }
+]

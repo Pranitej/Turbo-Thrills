@@ -1,0 +1,43 @@
+[
+  {
+    "q": "1. What is the primary difference between a sedan and an SUV ?",
+    "a": "A. The color options available.",
+    "b": "B. The body style and size.",
+    "c": "C. The engine type.",
+    "d": "D. The brand that manufactures them.",
+    "ans": "b"
+  },
+  {
+    "q": "2. What can you typically learn from a vehicle's VIN ?",
+    "a": "A. The car's color.",
+    "b": "B. The previous owner's name.",
+    "c": "C. The manufacturing plant and options installed.",
+    "d": "D. The future value of the car.",
+    "ans": "c"
+  },
+  {
+    "q": "3. What indicates a well-maintained vehicle ?",
+    "a": "A. High mileage.",
+    "b": "B. A single owner.",
+    "c": "C. Regular maintenance records.",
+    "d": "D. Aftermarket modifications.",
+    "ans": "c"
+  },
+  {
+    "q": "4. Which documents are important to check before buying a used car ?",
+    "a": "A. Warranty papers only.",
+    "b": "B. Title and service history.",
+    "c": "C. Previous owner's driving license.",
+    "d": "D. Vehicle's original invoice only.",
+    "ans": "b"
+  },
+  {
+    "q": "5. How can you determine the fair market value of a used car ?",
+    "a": "A. Guess based on the car's color and design.",
+    "b": "B. Check the price of similar models in online listings and valuation guides.",
+    "c": "C. Ask a friend for an estimate.",
+    "d": "D. Based on the amount you can afford.",
+    "ans": "b"
+  }
+  
+]
