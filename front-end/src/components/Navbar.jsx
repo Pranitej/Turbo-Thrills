@@ -132,7 +132,7 @@ export default function Header({ page }) {
             <li className="nav-item">
               <Link target="_blank" className="nav-link" to="https://x.com/vangalapranitej?t=oBNR1-0_b6UFxP4FwZK1KA&s=08">
                 <img
-                  src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png"
+                  src="https://icons8.com/icon/phOKFKYpe00C/twitterx"
                   alt="Twitter"
                   width="30"
                   height="30"
