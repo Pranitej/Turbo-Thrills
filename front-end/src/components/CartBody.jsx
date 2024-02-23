@@ -63,11 +63,12 @@ export default function CartBody() {
   return (
     <div className="container mt-5 mb-5">
       <div className="row mb-3 text-light">
-        <h2>Cars in Cart</h2>
-      </div>
       {
-        data1 && data1.length === 0 && <h2 className="mt-5 mb-5 text-center">Cart is Empty</h2>
+        data1 && data1.length === 0 
+        ? <h2 className="mt-5 mb-5 text-center">Cart is Empty</h2>
+        : <h2>Cars in Cart</h2>
       }
+      </div>
       <div className="row">
         {data1 &&
           data1.map((car, index) => (
