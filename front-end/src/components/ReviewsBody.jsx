@@ -131,8 +131,6 @@ export default function ReviewsBody() {
         <table className="table table-hover table-bordered border-secondary mt-4">
           <thead>
             <tr>
-              <th scope="col">FeedbackID</th>
-              <th scope="col">CarID</th>
               <th scope="col">FeedbackDate</th>
               <th scope="col">Review</th>
               <th scope="col">Rating</th>
@@ -150,8 +148,6 @@ export default function ReviewsBody() {
           <tbody>
             {reviewData.map((review, index) => (
               <tr key={index}>
-                <th scope="row">{review._id}</th>
-                <td>{review.carId}</td>
                 <td>
                   {new Date(review.updatedAt).toLocaleString("en-US", {
                     timeZone: "Asia/Kolkata",
