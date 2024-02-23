@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-const URL = "mongodb://localhost:27017/CarProject";
+const URL = "mongodb+srv://vangalapranitej:fJYsCZydAiwrcerk@turbo-thrills.4jvwzyk.mongodb.net/TurboThrills?retryWrites=true&w=majority&appName=Turbo-Thrills";
 const PORT = 5000;
 
 const app = express();
