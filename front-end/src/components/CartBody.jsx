@@ -66,7 +66,7 @@ export default function CartBody() {
         <h2>Cars in Cart</h2>
       </div>
       {
-        data1.length === 0 && <h2 className="mt-5 mb-5 text-center">Cart is Empty</h2>
+        data1 && data1.length === 0 && <h2 className="mt-5 mb-5 text-center">Cart is Empty</h2>
       }
       <div className="row">
         {data1 &&
