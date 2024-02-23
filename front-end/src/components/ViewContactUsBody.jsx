@@ -6,7 +6,7 @@ export default function ViewContactUsBody() {
 
   const fetchMessages = () => {
     axios
-      .get(`http://localhost:5000/contactUs/getAllMessages`)
+      .get(`https://turbo-thrills.onrender.com/contactUs/getAllMessages`)
       .then((response) => {
         setMessages(response.data.response);
       })
@@ -19,7 +19,7 @@ export default function ViewContactUsBody() {
 
   const deleteMessage = (id) => {
     axios
-      .delete(`http://localhost:5000/contactUs/deleteMessage/${id}`)
+      .delete(`https://turbo-thrills.onrender.com/contactUs/deleteMessage/${id}`)
       .then((response) => {
         if (response.data.response !== "error") fetchMessages();
       })

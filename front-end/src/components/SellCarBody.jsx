@@ -35,7 +35,7 @@ export default function SellCarBody() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/car/addCar",
+        "https://turbo-thrills.onrender.com/car/addCar",
         formData
       );
       if (response.data !== "error") {

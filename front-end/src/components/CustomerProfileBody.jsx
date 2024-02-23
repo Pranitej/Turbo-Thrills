@@ -14,7 +14,7 @@ export default function CustomerProfileBody() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/customer/getCustomer/${customerId}`
+          `https://turbo-thrills.onrender.com/customer/getCustomer/${customerId}`
         );
         if (response.ok) {
           const result = await response.json();

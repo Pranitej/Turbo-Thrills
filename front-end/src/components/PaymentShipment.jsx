@@ -29,7 +29,7 @@ export default function PaymentShipment() {
       };
       return dataObject;
     };
-    await fetch(`http://localhost:5000/carSale/addCarSale`, {
+    await fetch(`https://turbo-thrills.onrender.com/carSale/addCarSale`, {
       method: "POST",
       body: JSON.stringify({ ...getDataObject() }),
       headers: {

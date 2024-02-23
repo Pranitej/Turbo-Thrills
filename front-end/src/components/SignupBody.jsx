@@ -17,7 +17,7 @@ export default function SignupBody() {
   let navigate = useNavigate();
 
   const addCustomer = async () => {
-    await fetch("http://localhost:5000/customer/addCustomer", {
+    await fetch("https://turbo-thrills.onrender.com/customer/addCustomer", {
       method: "POST",
       body: JSON.stringify({
         firstName: firstName,

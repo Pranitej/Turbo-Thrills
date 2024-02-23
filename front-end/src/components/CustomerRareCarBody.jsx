@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { data } from "../App";
 import { Link } from "react-router-dom";
 
-const BASE_API_URL = "http://localhost:5000";
+const BASE_API_URL = "https://turbo-thrills.onrender.com";
 
 const CustomerRareCarBody = () => {
   const { customerId } = useContext(data);
@@ -230,7 +230,7 @@ const CustomerRareCarBody = () => {
             <div className="col-md-3 mb-4" key={index}>
               <div className="card hover_remove mt-3">
                 <img
-                  src={`http://localhost:5000/${car.carImage}`}
+                  src={`https://turbo-thrills.onrender.com/${car.carImage}`}
                   className="card-img-top mx-auto"
                   style={{ aspectRatio: 3 / 2 }}
                   alt="..."

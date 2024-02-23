@@ -15,7 +15,7 @@ export default function ReviewsBody() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/feedback/getFeedbacksByCustomerId/${customer.customerId}`
+        `https://turbo-thrills.onrender.com/feedback/getFeedbacksByCustomerId/${customer.customerId}`
       );
       if (response.ok) {
         const result = await response.json();
@@ -34,7 +34,7 @@ export default function ReviewsBody() {
 
   const handleViewCar = async (carId) => {
     try {
-      const response = await fetch(`http://localhost:5000/car/getCar/${carId}`);
+      const response = await fetch(`https://turbo-thrills.onrender.com/car/getCar/${carId}`);
       if (response.ok) {
         const result = await response.json();
         setCarData(result.response);
@@ -49,7 +49,7 @@ export default function ReviewsBody() {
   const handleEditReview = async (feedbackId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/feedback/getFeedback/${feedbackId}`
+        `https://turbo-thrills.onrender.com/feedback/getFeedback/${feedbackId}`
       );
       if (response.ok) {
         let result = await response.json();
@@ -68,7 +68,7 @@ export default function ReviewsBody() {
   const handleDelete = async (feedbackId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/feedback/deleteFeedback/${feedbackId}`,
+        `https://turbo-thrills.onrender.com/feedback/deleteFeedback/${feedbackId}`,
         {
           method: "DELETE",
           headers: {
@@ -89,7 +89,7 @@ export default function ReviewsBody() {
   const editReview = async (feedbackId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/feedback/updateFeedback/${feedbackId}`,
+        `https://turbo-thrills.onrender.com/feedback/updateFeedback/${feedbackId}`,
         {
           method: "PUT",
           body: JSON.stringify({
@@ -198,7 +198,7 @@ export default function ReviewsBody() {
                             <div className="card shadow-lg border-dark mt-3">
                               {carData && (
                                 <img
-                                  src={`http://localhost:5000/${carData.carImage}`}
+                                  src={`https://turbo-thrills.onrender.com/${carData.carImage}`}
                                   className="card-img-top mx-auto"
                                   style={{ aspectRatio: 3 / 2 }}
                                   alt="Network Error"

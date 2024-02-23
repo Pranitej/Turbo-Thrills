@@ -9,7 +9,7 @@ export default function ContactBody() {
 
   const addMessage = () => {
     axios
-      .post("http://localhost:5000/contactUs/addMessage", {
+      .post("https://turbo-thrills.onrender.com/contactUs/addMessage", {
         name: name,
         emailId: email,
         message: message,

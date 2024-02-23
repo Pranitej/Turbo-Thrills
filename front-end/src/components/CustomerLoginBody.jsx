@@ -13,7 +13,7 @@ export default function LoginBody() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/customer/getCustomerId`,
+          `https://turbo-thrills.onrender.com/customer/getCustomerId`,
           {
             method: "POST",
             body: JSON.stringify({
@@ -39,7 +39,7 @@ export default function LoginBody() {
   };
 
   const loginValidation = async () => {
-    await fetch("http://localhost:5000/customer/customerLogin", {
+    await fetch("https://turbo-thrills.onrender.com/customer/customerLogin", {
       method: "POST",
       body: JSON.stringify({
         emailId: email,

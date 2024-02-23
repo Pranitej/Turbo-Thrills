@@ -26,7 +26,7 @@ export default function EditProfileBody() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/customer/getCustomer/${customerId}`
+          `https://turbo-thrills.onrender.com/customer/getCustomer/${customerId}`
         );
         if (response.ok) {
           let result = await response.json();
@@ -54,7 +54,7 @@ export default function EditProfileBody() {
 
   const editCustomer = async () => {
     await fetch(
-      `http://localhost:5000/customer/updateCustomer/${profileData._id}`,
+      `https://turbo-thrills.onrender.com/customer/updateCustomer/${profileData._id}`,
       {
         method: "PUT",
         body: JSON.stringify({

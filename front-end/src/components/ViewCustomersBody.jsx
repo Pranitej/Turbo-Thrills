@@ -5,7 +5,7 @@ export default function ViewCustomersBody() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/customer/getAllCustomers"
+        "https://turbo-thrills.onrender.com/customer/getAllCustomers"
       );
       if (response.ok) {
         const result = await response.json();
@@ -24,7 +24,7 @@ export default function ViewCustomersBody() {
   const deleteCustomer = async (customerId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/customer/deleteCustomer/${customerId}`,
+        `https://turbo-thrills.onrender.com/customer/deleteCustomer/${customerId}`,
         {
           method: "DELETE",
           headers: {
