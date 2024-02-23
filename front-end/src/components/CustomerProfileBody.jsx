@@ -46,23 +46,19 @@ export default function CustomerProfileBody() {
             <table className="table">
               <tbody>
                 <tr>
-                  <th scope="row">Customer ID</th>
+                  <th scope="row">ID</th>
                   <td>{profileData._id}</td>
                 </tr>
                 <tr>
-                  <th scope="row">First Name</th>
-                  <td>{profileData.firstName}</td>
+                  <th scope="row">Name</th>
+                  <td>{`${profileData.firstName} ${profileData.lastName}`}</td>
                 </tr>
                 <tr>
-                  <th scope="row">Last Name</th>
-                  <td>{profileData.lastName}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Mobile Number</th>
+                  <th scope="row">Mobile</th>
                   <td>{profileData.mobile}</td>
                 </tr>
                 <tr>
-                  <th scope="row">Email Address</th>
+                  <th scope="row">Email</th>
                   <td>{profileData.emailId}</td>
                 </tr>
                 <tr>
