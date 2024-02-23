@@ -62,7 +62,7 @@ export default function Footer() {
           <div className="col-md-3">
             <h5 className="text-light">Follow Us</h5>
             <br />
-            <Link target="_blank" className="nav-link" to="">
+            <Link target="_blank" className="nav-link" to="https://x.com/vangalapranitej?t=oBNR1-0_b6UFxP4FwZK1KA&s=08 ">
               <p className="text-secondary">
                 <img
                   src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png"
@@ -73,7 +73,7 @@ export default function Footer() {
                 {"       "}Twitter
               </p>
             </Link>
-            <Link target="_blank" className="nav-link" to="">
+            <Link target="_blank" className="nav-link" to="https://www.instagram.com/pranitej0905?igsh=NGUwOWZxajd5bnlv ">
               <p className="text-secondary">
                 <img
                   src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
@@ -84,7 +84,7 @@ export default function Footer() {
                 {"       "}Instagram
               </p>
             </Link>
-            <Link className="nav-link" target="_blank" to="">
+            <Link className="nav-link" target="_blank" to="https://www.facebook.com/pranitej.radhika?mibextid=ZbWKwL">
               <p className="text-secondary">
                 <img
                   src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png"
@@ -98,7 +98,7 @@ export default function Footer() {
             <br />
             <h5 className="text-light">Find Us</h5>
             <br />
-            <Link className="nav-link" target="_blank" to="">
+            <Link className="nav-link" target="_blank" to="https://maps.app.goo.gl/BdK8FXGbvxuT3wGx9">
               <p className="text-secondary mb-5">
                 <img
                   src="https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg?w=826"
