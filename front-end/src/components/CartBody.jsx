@@ -13,7 +13,7 @@ export default function CartBody() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/cart/getCustomerCarts/${customer.customerId}`
+        `https://turbo-thrills.onrender.com/cart/getCustomerCarts/${customer.customerId}`
       );
       if (response.ok) {
         const result = await response.json();
@@ -37,7 +37,7 @@ export default function CartBody() {
   const deleteCartCar = async (customerId, carId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/cart/deleteCartByCustomerIdAndCarId/${customerId}/${carId}`,
+        `https://turbo-thrills.onrender.com/cart/deleteCartByCustomerIdAndCarId/${customerId}/${carId}`,
         {
           method: "DELETE",
           headers: {
@@ -71,7 +71,7 @@ export default function CartBody() {
             <div className="col-md-3 mb-4" key={index}>
               <div className="card">
                 <img
-                  src={`http://localhost:5000/${car.carImage}`}
+                  src={`https://turbo-thrills.onrender.com/${car.carImage}`}
                   className="card-img-top mx-auto"
                   style={{ aspectRatio: 3 / 2 }}
                   alt="Network Error"

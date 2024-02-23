@@ -11,7 +11,7 @@ export default function AdminLoginBody() {
   let navigate = useNavigate();
 
   const loginValidation = async () => {
-    await fetch("http://localhost:5000/admin/adminLogin", {
+    await fetch("https://turbo-thrills.onrender.com/admin/adminLogin", {
       method: "POST",
       body: JSON.stringify({
         username: username,

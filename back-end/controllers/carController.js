@@ -1,5 +1,5 @@
 const carModel = require("../model/carModel");
-const GET_IMAGE_URL = `http://localhost:5000/`;
+const GET_IMAGE_URL = `https://turbo-thrills.onrender.com/`;
 
 async function addCar(data) {
   try {

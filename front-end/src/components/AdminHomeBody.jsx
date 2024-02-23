@@ -9,7 +9,7 @@ export default function AdminHomeBody() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/car/getAllCars");
+      const response = await fetch("https://turbo-thrills.onrender.com/car/getAllCars");
       if (response.ok) {
         const result = await response.json();
         setAllCars(result.response);
@@ -26,7 +26,7 @@ export default function AdminHomeBody() {
 
   const handleViewCar = async (carId) => {
     try {
-      const response = await fetch(`http://localhost:5000/car/getCar/${carId}`);
+      const response = await fetch(`https://turbo-thrills.onrender.com/car/getCar/${carId}`);
       if (response.ok) {
         const result = await response.json();
         setCarData(result.response);
@@ -41,7 +41,7 @@ export default function AdminHomeBody() {
   const deleteCar = async (carId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/car/deleteCar/${carId}`,
+        `https://turbo-thrills.onrender.com/car/deleteCar/${carId}`,
         {
           method: "DELETE",
           headers: {
@@ -127,7 +127,7 @@ export default function AdminHomeBody() {
                           <div className="card mt-3">
                             {carData && (
                               <img
-                                src={`http://localhost:5000/${carData.carImage}`}
+                                src={`https://turbo-thrills.onrender.com/${carData.carImage}`}
                                 className="card-img-top mx-auto"
                                 style={{ aspectRatio: 3 / 2 }}
                                 alt="..."
