@@ -65,7 +65,7 @@ export default function Footer() {
             <Link target="_blank" className="nav-link" to="https://x.com/vangalapranitej?t=oBNR1-0_b6UFxP4FwZK1KA&s=08 ">
               <p className="text-secondary">
                 <img
-                  src="https://icons8.com/icon/phOKFKYpe00C/twitterx"
+                  src="https://img.icons8.com/ios-filled/50/000000/twitterx--v1.png"
                   alt="Twitter"
                   width="30"
                   height="30"
